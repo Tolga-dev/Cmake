@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="CmakePractice" targetName="CmakePractice_bin" />
+      <config projectName="CmakePractice" targetName="CmakePractice" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e563b728-7085-44b8-8835-fe1f2f8c5706" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CmakePractice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CmakePractice2/.idea/CmakePractice2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CmakePractice2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/.idea/InternetCommunication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/SMTP.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/Socket/Client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/Socket/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/.cmake/api/v1/reply/cache-v2-35e0f63e2520d364610c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-841bf2f9162c7375cddb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-154df6e2ac3c10fe6d8e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/3.23.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/3.23.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/3.23.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/3.23.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/3.23.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/3.23.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/3.23.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/3.23.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/3.23.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/InternetCommunication.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/InternetCommunication" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InternetCommunication/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCodeSolutions/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCodeSolutions/.idea/LeetCodeSolutions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCodeSolutions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCodeSolutions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCodeSolutions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LexicalAnalyzer/.idea/LexicalAnalyzer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NSTX/.idea/NSTX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iforgot/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/.idea/textEditor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-154df6e2ac3c10fe6d8e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/3.23.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/3.23.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/3.23.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/3.23.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/3.23.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/3.23.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/3.23.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/3.23.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/3.23.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textEditor/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="1.3" />
+  </component>
+  <component name="ProjectId" id="2Lo6V232SMcMuX3GvBtElFlEEkV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmakePractice" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CmakePractice" TARGET_NAME="CmakePractice" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CmakePractice" RUN_TARGET_NAME="CmakePractice_bin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e563b728-7085-44b8-8835-fe1f2f8c5706" name="Changes" comment="" />
+      <created>1676525107999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676525107999</updated>
+      <workItem from="1676525109502" duration="3017000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/git@github.com:Tolga-dev/Cmake.git" />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

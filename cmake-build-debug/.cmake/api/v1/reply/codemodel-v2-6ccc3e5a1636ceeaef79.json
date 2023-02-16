@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CmakePractice",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CmakePractice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CmakePractice-Debug-1d6581119396a726416e.json",
+					"name" : "CmakePractice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CmakePractice_bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CmakePractice_bin-Debug-fb34c746a52d290db605.json",
+					"name" : "CmakePractice_bin",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xamblot/CLionProjects/CmakePractice/cmake-build-debug",
+		"source" : "/home/xamblot/CLionProjects/CmakePractice"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
