@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_CmakePractice: phony || CMakeFiles/Cmake
 build CMakeFiles/CmakePractice.dir/Static/Src/st.cpp.o: CXX_COMPILER__CmakePractice_Debug /home/xamblot/CLionProjects/CmakePractice/Static/Src/st.cpp || cmake_object_order_depends_target_CmakePractice
   DEFINES = -DCmakePractice_EXPORTS
   DEP_FILE = CMakeFiles/CmakePractice.dir/Static/Src/st.cpp.o.d
-  FLAGS = -g -fPIC -std=gnu++2a
+  FLAGS = -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DW -DEX2 -DWXX -DEX2 -DW -DEX2 -DEX2  -Wall  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -g -fPIC -std=gnu++2a
   INCLUDES = -I/home/xamblot/CLionProjects/CmakePractice/Static/Inc
   OBJECT_DIR = CMakeFiles/CmakePractice.dir
   OBJECT_FILE_DIR = CMakeFiles/CmakePractice.dir/Static/Src
@@ -66,7 +66,7 @@ build CMakeFiles/CmakePractice.dir/Static/Src/st.cpp.o: CXX_COMPILER__CmakePract
 # Link the shared library libCmakePractice.so
 
 build libCmakePractice.so: CXX_SHARED_LIBRARY_LINKER__CmakePractice_Debug CMakeFiles/CmakePractice.dir/Static/Src/st.cpp.o
-  LANGUAGE_COMPILE_FLAGS = -g
+  LANGUAGE_COMPILE_FLAGS = -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DW -DEX2 -DWXX -DEX2 -DW -DEX2 -DEX2  -Wall  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/CmakePractice.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -86,7 +86,7 @@ build cmake_object_order_depends_target_CmakePractice_bin: phony || cmake_object
 
 build CMakeFiles/CmakePractice_bin.dir/main.cpp.o: CXX_COMPILER__CmakePractice_bin_Debug /home/xamblot/CLionProjects/CmakePractice/main.cpp || cmake_object_order_depends_target_CmakePractice_bin
   DEP_FILE = CMakeFiles/CmakePractice_bin.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++2a
+  FLAGS = -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DW -DEX2 -DWXX -DEX2 -DW -DEX2 -DEX2  -Wall  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -g -std=gnu++2a
   INCLUDES = -I/home/xamblot/CLionProjects/CmakePractice/Static/Inc
   OBJECT_DIR = CMakeFiles/CmakePractice_bin.dir
   OBJECT_FILE_DIR = CMakeFiles/CmakePractice_bin.dir
@@ -100,7 +100,7 @@ build CMakeFiles/CmakePractice_bin.dir/main.cpp.o: CXX_COMPILER__CmakePractice_b
 # Link the executable CmakePractice_bin
 
 build CmakePractice_bin: CXX_EXECUTABLE_LINKER__CmakePractice_bin_Debug CMakeFiles/CmakePractice_bin.dir/main.cpp.o | libCmakePractice.so || libCmakePractice.so
-  FLAGS = -g
+  FLAGS = -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DEX2 -DW -DEX2 -DWXX -DEX2 -DW -DEX2 -DEX2  -Wall  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -g
   LINK_LIBRARIES = -Wl,-rpath,/home/xamblot/CLionProjects/CmakePractice/cmake-build-debug  libCmakePractice.so
   OBJECT_DIR = CMakeFiles/CmakePractice_bin.dir
   POST_BUILD = :
