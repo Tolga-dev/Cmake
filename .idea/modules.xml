@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CmakePractice.iml" filepath="$PROJECT_DIR$/.idea/CmakePractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CppCmake.iml" filepath="$PROJECT_DIR$/.idea/CppCmake.iml" />
     </modules>
   </component>
 </project>

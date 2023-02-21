@@ -1,12 +1,19 @@
 # ninja log v5
+0	391	1676963390988712732	CMakeFiles/CmakePractice.dir/lib/sublib/Static/Src/st.cpp.o	89f681ed471c69bc
 376	442	1676526056455896079	libCmakePractice_lib.so	761da9ce42042e7
-0	390	1676620825447039582	CMakeFiles/CmakePractice_bin.dir/main.cpp.o	ee7ad2c957881092
-390	465	1676620825523040115	CmakePractice_bin	6b2b8df2440a1ac2
+1	1692	1676963394192759606	CMakeFiles/CmakePractice_bin.dir/main.cpp.o	6d3155ed60dec2c3
+1692	1778	1676963394276760835	CmakePractice_bin	1d8e269439b29340
 377	382	1676526369940441936	libCmakePractice_lib.a	bdd22ea7c04a3c10
-1	13	1676526378764648661	CMakeFiles/CmakePractice.dir/main.cpp.o	e1147b97b4e7667f
-0	20	1676621548968671364	build.ninja	2036b13ffeef0cb9
+0	22	1676963423673190931	build.ninja	10a1f834368c2740
 14	97	1676526378844650526	CmakePractice	3c23f088319e6797
-1	415	1676620806078903551	CMakeFiles/CmakePractice.dir/Static/Src/st.cpp.o	2810bbbbd8ac5f9d
-377	381	1676526686842831878	libCmakePractice.a	2a9516e6819ade46
-415	480	1676620806142904001	libCmakePractice.so	cb73ccfe718d765
-1	377	1676526369932441747	CMakeFiles/CmakePractice_lib.dir/Static/Src/st.cpp.o	e9a3e331220ef696
+1	441	1676799637845575350	CMakeFiles/CmakePractice.dir/Static/Src/st.cpp.o	fb7d122c15dfc972
+1617	1623	1676963392220730756	libCmakePractice.a	4f7906ddb1f9aae3
+1607	1617	1676963392212730639	lib/sublib/Bit/libBit.a	50fb78d0de1f835c
+1	1606	1676963392200730463	lib/sublib/Bit/CMakeFiles/Bit.dir/Src/Bit.cpp.o	959119d056369cee
+438	528	1676960699599091804	libCmakePractice.so	1460c563786db503
+1	385	1676963430961297571	CMakeFiles/CmakePractice.dir/lib/sublib/Static/Src/st.cpp.o	cc4eec6c95f453fa
+1	1578	1676963432153315013	lib/sublib/Bit/CMakeFiles/Bit.dir/Src/Bit.cpp.o	9dfbaec258836d2
+1578	1584	1676963432161315130	lib/sublib/Bit/libBit.a	50fb78d0de1f835c
+1584	1590	1676963432165315188	libCmakePractice.a	4f7906ddb1f9aae3
+0	1574	1676963433933341059	CMakeFiles/CmakePractice_bin.dir/main.cpp.o	dad3de9860cec7cf
+1574	1653	1676963434009342171	CmakePractice_bin	a18f74d83265298f

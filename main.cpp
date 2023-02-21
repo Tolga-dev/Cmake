@@ -1,4 +1,6 @@
-#include "Static/Inc/st.h"
+#include "lib/sublib/Static/Inc/st.h"
+#include "lib/sublib/Bit/Include/Bit.hpp"
+#include "lib/sublib2/Bit/Include/bit.h"
 #include <iostream>
 
 int a()
@@ -10,6 +12,14 @@ int a()
 
 int main(int argc,[[maybe_unused]] char *argv[])
 {
+    bit_c m;
+    m.print();
+
+
+    bit c;
+    c.print();
+
+
     Hello hi;
     hi.print();
     a();

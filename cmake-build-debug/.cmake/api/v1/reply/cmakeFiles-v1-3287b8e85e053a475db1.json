@@ -120,13 +120,54 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"path" : "lib/sublib/Bit/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/sublib2/Bit/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/xamblot/CLionProjects/CmakePractice/cmake-build-debug",
-		"source" : "/home/xamblot/CLionProjects/CmakePractice"
+		"build" : "/home/xamblot/CLionProjects/CppCmake/cmake-build-debug",
+		"source" : "/home/xamblot/CLionProjects/CppCmake"
 	},
 	"version" : 
 	{
