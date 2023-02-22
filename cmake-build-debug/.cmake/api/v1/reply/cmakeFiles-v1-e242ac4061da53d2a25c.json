@@ -120,6 +120,18 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "Lib/GeometryHeaderLib/Shape/CMakeLists.txt"
+		},
+		{
+			"path" : "Lib/GeometryHeaderLib/Square/CMakeLists.txt"
+		},
+		{
+			"path" : "Lib/GeometryBasic/Shape/CMakeLists.txt"
+		},
+		{
+			"path" : "Lib/GeometryBasic/Rectangle/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

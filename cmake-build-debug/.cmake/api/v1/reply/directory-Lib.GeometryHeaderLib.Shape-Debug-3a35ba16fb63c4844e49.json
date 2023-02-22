@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Lib/GeometryHeaderLib/Shape",
+		"source" : "Lib/GeometryHeaderLib/Shape"
+	}
+}

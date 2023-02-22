@@ -1,0 +1,12 @@
+# ninja log v5
+2708	2718	1676524958194539288	libCmake.a	41c7ada0e8b7200
+2	715	1676524956190518734	CMakeFiles/Cmake.dir/Lib/GeometryBasic/Shape/Base.cpp.o	1d9799c173fe3109
+2	2708	1676524958182539165	CMakeFiles/Cmake.dir/main.cpp.o	e5d26b89631fab76
+2	655	1676524956130518118	CMakeFiles/Cmake.dir/Lib/Static/Src/st.cpp.o	ba94d639687f4c6b
+0	37	1676525019167154035	build.ninja	d1d7490e52b95023
+3	601	1676524956074517544	CMakeFiles/Cmake.dir/Lib/GeometryBasic/Rectangle/Rectangle.cpp.o	897f8364484fc926
+3	574	1676525023891200842	CMakeFiles/Cmake.dir/Lib/GeometryBasic/Rectangle/Rectangle.cpp.o	51fbb0898c1756d5
+1	648	1676525023967201594	CMakeFiles/Cmake.dir/Lib/Static/Src/st.cpp.o	411c849c5ca561ca
+3	711	1676525024027202188	CMakeFiles/Cmake.dir/Lib/GeometryBasic/Shape/Base.cpp.o	9ce6513bdc1ab782
+2	2498	1676525025815219874	CMakeFiles/Cmake.dir/main.cpp.o	244927ec9bde5d88
+2498	2507	1676525025827219992	libCmake.a	41c7ada0e8b7200

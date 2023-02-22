@@ -1,11 +1,13 @@
 #include <bits/stdc++.h>
 #include "Lib/GeometryBasic/Rectangle/Rectangle.h"
 #include "Geometry.h"
-
+#include "Lib/Static/Inc/st.h"
 using namespace std;
 
 int main() {
 
+    Hello hi;
+    hi.print();
 
     Geometry::Shape::Base base;
     Geometry::Rectangle::Rectangle rectangle;

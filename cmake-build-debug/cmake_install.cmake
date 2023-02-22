@@ -42,6 +42,36 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Shape/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Square/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Shape/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Rectangle/cmake_install.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/xamblot/CLionProjects/Cmake/cmake-build-debug/libCmake.a")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/xamblot/CLionProjects/Cmake/Geometry.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Lib/GeometryHeaderLib/Shape" TYPE FILE FILES "/home/xamblot/CLionProjects/Cmake/Lib/GeometryHeaderLib/Shape/Shape.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Lib/GeometryHeaderLib/Square" TYPE FILE FILES "/home/xamblot/CLionProjects/Cmake/Lib/GeometryHeaderLib/Square/Square.h")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

@@ -1,0 +1,125 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-29df36feadeec7d93714.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "Lib/GeometryHeaderLib/Shape",
+					"jsonFile" : "directory-Lib.GeometryHeaderLib.Shape-Debug-3a35ba16fb63c4844e49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lib/GeometryHeaderLib/Shape"
+				},
+				{
+					"build" : "Lib/GeometryHeaderLib/Square",
+					"jsonFile" : "directory-Lib.GeometryHeaderLib.Square-Debug-e1f19565d5097ed03c89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lib/GeometryHeaderLib/Square"
+				},
+				{
+					"build" : "Lib/GeometryBasic/Shape",
+					"jsonFile" : "directory-Lib.GeometryBasic.Shape-Debug-cbbefa0a0961a8cf3fe4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lib/GeometryBasic/Shape"
+				},
+				{
+					"build" : "Lib/GeometryBasic/Rectangle",
+					"jsonFile" : "directory-Lib.GeometryBasic.Rectangle-Debug-cc8d6d7eaf7b41f23d1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lib/GeometryBasic/Rectangle"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Cmake",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Cmake::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cmake-Debug-fc1e2784fb36980390ca.json",
+					"name" : "Cmake",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CmakeBinary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CmakeBinary-Debug-e4282a38268d883faad7.json",
+					"name" : "CmakeBinary",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xamblot/CLionProjects/Cmake/cmake-build-debug",
+		"source" : "/home/xamblot/CLionProjects/Cmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Cmake"
+			"path" : "CmakeBinary"
 		}
 	],
 	"backtrace" : 1,
@@ -10,7 +10,8 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -24,7 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 19,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 25,
 				"parent" : 0
 			}
 		]
@@ -39,6 +46,13 @@
 				},
 				{
 					"fragment" : "-std=gnu++2a"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/xamblot/CLionProjects/Cmake/Cmake/Lib/Static"
 				}
 			],
 			"language" : "CXX",
@@ -56,7 +70,14 @@
 			]
 		}
 	],
-	"id" : "Cmake::@6890427a1f51a3e7e1df",
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Cmake::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "CmakeBinary::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -68,12 +89,17 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libCmake.a",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "Cmake",
-	"nameOnDisk" : "Cmake",
+	"name" : "CmakeBinary",
+	"nameOnDisk" : "CmakeBinary",
 	"paths" : 
 	{
 		"build" : ".",

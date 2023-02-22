@@ -41,7 +41,7 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/xamblot/CLionProjects/Cmake/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Cmake
+# Object build statements for STATIC_LIBRARY target Cmake
 
 
 #############################################
@@ -49,27 +49,82 @@ cmake_ninja_workdir = /home/xamblot/CLionProjects/Cmake/cmake-build-debug/
 
 build cmake_object_order_depends_target_Cmake: phony || CMakeFiles/Cmake.dir
 
+build CMakeFiles/Cmake.dir/Lib/Static/Src/st.cpp.o: CXX_COMPILER__Cmake_Debug /home/xamblot/CLionProjects/Cmake/Lib/Static/Src/st.cpp || cmake_object_order_depends_target_Cmake
+  DEP_FILE = CMakeFiles/Cmake.dir/Lib/Static/Src/st.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I/home/xamblot/CLionProjects/Cmake/Cmake/Lib/Static -I/home/xamblot/CLionProjects/Cmake
+  OBJECT_DIR = CMakeFiles/Cmake.dir
+  OBJECT_FILE_DIR = CMakeFiles/Cmake.dir/Lib/Static/Src
+
 build CMakeFiles/Cmake.dir/main.cpp.o: CXX_COMPILER__Cmake_Debug /home/xamblot/CLionProjects/Cmake/main.cpp || cmake_object_order_depends_target_Cmake
   DEP_FILE = CMakeFiles/Cmake.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++2a
+  INCLUDES = -I/home/xamblot/CLionProjects/Cmake/Cmake/Lib/Static -I/home/xamblot/CLionProjects/Cmake
   OBJECT_DIR = CMakeFiles/Cmake.dir
   OBJECT_FILE_DIR = CMakeFiles/Cmake.dir
 
+build CMakeFiles/Cmake.dir/Lib/GeometryBasic/Shape/Base.cpp.o: CXX_COMPILER__Cmake_Debug /home/xamblot/CLionProjects/Cmake/Lib/GeometryBasic/Shape/Base.cpp || cmake_object_order_depends_target_Cmake
+  DEP_FILE = CMakeFiles/Cmake.dir/Lib/GeometryBasic/Shape/Base.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I/home/xamblot/CLionProjects/Cmake/Cmake/Lib/Static -I/home/xamblot/CLionProjects/Cmake
+  OBJECT_DIR = CMakeFiles/Cmake.dir
+  OBJECT_FILE_DIR = CMakeFiles/Cmake.dir/Lib/GeometryBasic/Shape
+
+build CMakeFiles/Cmake.dir/Lib/GeometryBasic/Rectangle/Rectangle.cpp.o: CXX_COMPILER__Cmake_Debug /home/xamblot/CLionProjects/Cmake/Lib/GeometryBasic/Rectangle/Rectangle.cpp || cmake_object_order_depends_target_Cmake
+  DEP_FILE = CMakeFiles/Cmake.dir/Lib/GeometryBasic/Rectangle/Rectangle.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I/home/xamblot/CLionProjects/Cmake/Cmake/Lib/Static -I/home/xamblot/CLionProjects/Cmake
+  OBJECT_DIR = CMakeFiles/Cmake.dir
+  OBJECT_FILE_DIR = CMakeFiles/Cmake.dir/Lib/GeometryBasic/Rectangle
+
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Cmake
+# Link build statements for STATIC_LIBRARY target Cmake
 
 
 #############################################
-# Link the executable Cmake
+# Link the static library libCmake.a
 
-build Cmake: CXX_EXECUTABLE_LINKER__Cmake_Debug CMakeFiles/Cmake.dir/main.cpp.o
-  FLAGS = -g
+build libCmake.a: CXX_STATIC_LIBRARY_LINKER__Cmake_Debug CMakeFiles/Cmake.dir/Lib/Static/Src/st.cpp.o CMakeFiles/Cmake.dir/main.cpp.o CMakeFiles/Cmake.dir/Lib/GeometryBasic/Shape/Base.cpp.o CMakeFiles/Cmake.dir/Lib/GeometryBasic/Rectangle/Rectangle.cpp.o
+  LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/Cmake.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Cmake
-  TARGET_PDB = Cmake.dbg
+  TARGET_FILE = libCmake.a
+  TARGET_PDB = Cmake.a.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CmakeBinary
+
+
+#############################################
+# Order-only phony target for CmakeBinary
+
+build cmake_object_order_depends_target_CmakeBinary: phony || cmake_object_order_depends_target_Cmake
+
+build CMakeFiles/CmakeBinary.dir/main.cpp.o: CXX_COMPILER__CmakeBinary_Debug /home/xamblot/CLionProjects/Cmake/main.cpp || cmake_object_order_depends_target_CmakeBinary
+  DEP_FILE = CMakeFiles/CmakeBinary.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I/home/xamblot/CLionProjects/Cmake/Cmake/Lib/Static
+  OBJECT_DIR = CMakeFiles/CmakeBinary.dir
+  OBJECT_FILE_DIR = CMakeFiles/CmakeBinary.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CmakeBinary
+
+
+#############################################
+# Link the executable CmakeBinary
+
+build CmakeBinary: CXX_EXECUTABLE_LINKER__CmakeBinary_Debug CMakeFiles/CmakeBinary.dir/main.cpp.o | libCmake.a || libCmake.a
+  FLAGS = -g
+  LINK_LIBRARIES = libCmake.a
+  OBJECT_DIR = CMakeFiles/CmakeBinary.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CmakeBinary
+  TARGET_PDB = CmakeBinary.dbg
 
 
 #############################################
@@ -94,8 +149,332 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/xamblot/CLionProjects/Cmake/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build Lib/GeometryHeaderLib/Shape/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Shape && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Lib/GeometryHeaderLib/Shape/edit_cache: phony Lib/GeometryHeaderLib/Shape/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Lib/GeometryHeaderLib/Shape/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Shape && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/xamblot/CLionProjects/Cmake -B/home/xamblot/CLionProjects/Cmake/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Lib/GeometryHeaderLib/Shape/rebuild_cache: phony Lib/GeometryHeaderLib/Shape/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build Lib/GeometryHeaderLib/Shape/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build Lib/GeometryHeaderLib/Shape/CMakeFiles/install.util: CUSTOM_COMMAND Lib/GeometryHeaderLib/Shape/all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Shape && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build Lib/GeometryHeaderLib/Shape/install: phony Lib/GeometryHeaderLib/Shape/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build Lib/GeometryHeaderLib/Shape/CMakeFiles/install/local.util: CUSTOM_COMMAND Lib/GeometryHeaderLib/Shape/all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Shape && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build Lib/GeometryHeaderLib/Shape/install/local: phony Lib/GeometryHeaderLib/Shape/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build Lib/GeometryHeaderLib/Shape/CMakeFiles/install/strip.util: CUSTOM_COMMAND Lib/GeometryHeaderLib/Shape/all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Shape && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build Lib/GeometryHeaderLib/Shape/install/strip: phony Lib/GeometryHeaderLib/Shape/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/xamblot/CLionProjects/Cmake/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build Lib/GeometryHeaderLib/Square/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Square && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Lib/GeometryHeaderLib/Square/edit_cache: phony Lib/GeometryHeaderLib/Square/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Lib/GeometryHeaderLib/Square/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Square && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/xamblot/CLionProjects/Cmake -B/home/xamblot/CLionProjects/Cmake/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Lib/GeometryHeaderLib/Square/rebuild_cache: phony Lib/GeometryHeaderLib/Square/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build Lib/GeometryHeaderLib/Square/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build Lib/GeometryHeaderLib/Square/CMakeFiles/install.util: CUSTOM_COMMAND Lib/GeometryHeaderLib/Square/all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Square && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build Lib/GeometryHeaderLib/Square/install: phony Lib/GeometryHeaderLib/Square/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build Lib/GeometryHeaderLib/Square/CMakeFiles/install/local.util: CUSTOM_COMMAND Lib/GeometryHeaderLib/Square/all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Square && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build Lib/GeometryHeaderLib/Square/install/local: phony Lib/GeometryHeaderLib/Square/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build Lib/GeometryHeaderLib/Square/CMakeFiles/install/strip.util: CUSTOM_COMMAND Lib/GeometryHeaderLib/Square/all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Square && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build Lib/GeometryHeaderLib/Square/install/strip: phony Lib/GeometryHeaderLib/Square/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/xamblot/CLionProjects/Cmake/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build Lib/GeometryBasic/Shape/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Shape && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Lib/GeometryBasic/Shape/edit_cache: phony Lib/GeometryBasic/Shape/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Lib/GeometryBasic/Shape/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Shape && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/xamblot/CLionProjects/Cmake -B/home/xamblot/CLionProjects/Cmake/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Lib/GeometryBasic/Shape/rebuild_cache: phony Lib/GeometryBasic/Shape/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build Lib/GeometryBasic/Shape/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build Lib/GeometryBasic/Shape/CMakeFiles/install.util: CUSTOM_COMMAND Lib/GeometryBasic/Shape/all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Shape && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build Lib/GeometryBasic/Shape/install: phony Lib/GeometryBasic/Shape/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build Lib/GeometryBasic/Shape/CMakeFiles/install/local.util: CUSTOM_COMMAND Lib/GeometryBasic/Shape/all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Shape && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build Lib/GeometryBasic/Shape/install/local: phony Lib/GeometryBasic/Shape/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build Lib/GeometryBasic/Shape/CMakeFiles/install/strip.util: CUSTOM_COMMAND Lib/GeometryBasic/Shape/all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Shape && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build Lib/GeometryBasic/Shape/install/strip: phony Lib/GeometryBasic/Shape/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/xamblot/CLionProjects/Cmake/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build Lib/GeometryBasic/Rectangle/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Rectangle && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Lib/GeometryBasic/Rectangle/edit_cache: phony Lib/GeometryBasic/Rectangle/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Lib/GeometryBasic/Rectangle/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Rectangle && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/xamblot/CLionProjects/Cmake -B/home/xamblot/CLionProjects/Cmake/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Lib/GeometryBasic/Rectangle/rebuild_cache: phony Lib/GeometryBasic/Rectangle/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build Lib/GeometryBasic/Rectangle/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build Lib/GeometryBasic/Rectangle/CMakeFiles/install.util: CUSTOM_COMMAND Lib/GeometryBasic/Rectangle/all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Rectangle && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build Lib/GeometryBasic/Rectangle/install: phony Lib/GeometryBasic/Rectangle/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build Lib/GeometryBasic/Rectangle/CMakeFiles/install/local.util: CUSTOM_COMMAND Lib/GeometryBasic/Rectangle/all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Rectangle && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build Lib/GeometryBasic/Rectangle/install/local: phony Lib/GeometryBasic/Rectangle/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build Lib/GeometryBasic/Rectangle/CMakeFiles/install/strip.util: CUSTOM_COMMAND Lib/GeometryBasic/Rectangle/all
+  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Rectangle && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build Lib/GeometryBasic/Rectangle/install/strip: phony Lib/GeometryBasic/Rectangle/CMakeFiles/install/strip.util
+
 # =============================================================================
 # Target aliases.
+
+build Cmake: phony libCmake.a
 
 # =============================================================================
 # Folder targets.
@@ -105,7 +484,35 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/xamblot/CLionProjects/Cmake/cmake-build-debug
 
-build all: phony Cmake
+build all: phony libCmake.a CmakeBinary Lib/GeometryHeaderLib/Shape/all Lib/GeometryHeaderLib/Square/all Lib/GeometryBasic/Shape/all Lib/GeometryBasic/Rectangle/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Rectangle
+
+build Lib/GeometryBasic/Rectangle/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryBasic/Shape
+
+build Lib/GeometryBasic/Shape/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Shape
+
+build Lib/GeometryHeaderLib/Shape/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /home/xamblot/CLionProjects/Cmake/cmake-build-debug/Lib/GeometryHeaderLib/Square
+
+build Lib/GeometryHeaderLib/Square/all: phony
 
 # =============================================================================
 # Built-in targets
@@ -114,14 +521,14 @@ build all: phony Cmake
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/GNU.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux-GNU-CXX.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.3/CMakeCCompiler.cmake CMakeFiles/3.23.3/CMakeCXXCompiler.cmake CMakeFiles/3.23.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../Lib/GeometryBasic/Rectangle/CMakeLists.txt ../Lib/GeometryBasic/Shape/CMakeLists.txt ../Lib/GeometryHeaderLib/Shape/CMakeLists.txt ../Lib/GeometryHeaderLib/Square/CMakeLists.txt /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/GNU.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux-GNU-CXX.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.3/CMakeCCompiler.cmake CMakeFiles/3.23.3/CMakeCXXCompiler.cmake CMakeFiles/3.23.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/GNU.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux-GNU-CXX.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.3/CMakeCCompiler.cmake CMakeFiles/3.23.3/CMakeCXXCompiler.cmake CMakeFiles/3.23.3/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../Lib/GeometryBasic/Rectangle/CMakeLists.txt ../Lib/GeometryBasic/Shape/CMakeLists.txt ../Lib/GeometryHeaderLib/Shape/CMakeLists.txt ../Lib/GeometryHeaderLib/Square/CMakeLists.txt /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Compiler/GNU.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux-GNU-CXX.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/Linux.cmake /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.3/CMakeCCompiler.cmake CMakeFiles/3.23.3/CMakeCXXCompiler.cmake CMakeFiles/3.23.3/CMakeSystem.cmake: phony
 
 
 #############################################
