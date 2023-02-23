@@ -1,4 +1,4 @@
-# Install script for directory: /home/xamblot/CLionProjects/CppCmake/lib/sublib/Bit
+# Install script for directory: /home/xamblot/CLionProjects/Cmake/lib/sublib/Bit
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

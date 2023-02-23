@@ -1,0 +1,10 @@
+//
+// Created by xamblot on 2/22/23.
+//
+
+#ifndef CMAKEPRACTICE_VERS_H
+#define CMAKEPRACTICE_VERS_H
+
+const char* ver = "${CmakePractice_VERSION}";
+
+#endif //CMAKEPRACTICE_VERS_H

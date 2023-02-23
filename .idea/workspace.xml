@@ -17,8 +17,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e563b728-7085-44b8-8835-fe1f2f8c5706" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CmakePractice2/.idea/CmakePractice2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CmakePractice2/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/CmakePractice.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -26,6 +24,8 @@
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CmakePractice2/.idea/CmakePractice2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CmakePractice2/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../InternetCommunication/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../InternetCommunication/.idea/InternetCommunication.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../InternetCommunication/.idea/misc.xml" afterDir="false" />
@@ -136,7 +136,9 @@
     <option name="minorVersion" value="1.3" />
   </component>
   <component name="ProjectId" id="2Lo6V232SMcMuX3GvBtElFlEEkV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -164,17 +166,17 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.CmakePractice">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Bit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CmakePractice" TARGET_NAME="Bit" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="CmakePractice" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CmakePractice" TARGET_NAME="CmakePractice" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CmakePractice" RUN_TARGET_NAME="CmakePractice_bin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -204,6 +206,7 @@
       <workItem from="1676871569589" duration="1558000" />
       <workItem from="1676960398467" duration="3272000" />
       <workItem from="1676963683584" duration="6257000" />
+      <workItem from="1677135970915" duration="5186000" />
     </task>
     <servers />
   </component>

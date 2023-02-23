@@ -1,0 +1,102 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/sublib/Bit/libBit.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"lib/sublib/Bit/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -g"
+				},
+				{
+					"fragment" : "-std=gnu++2a"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/xamblot/CLionProjects/Cmake/lib/sublib/Bit/lib/sublib/Bit/Include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "Bit::@e3dccab819da38f33c2b",
+	"name" : "Bit",
+	"nameOnDisk" : "libBit.a",
+	"paths" : 
+	{
+		"build" : "lib/sublib/Bit",
+		"source" : "lib/sublib/Bit"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/sublib/Bit/Src/Bit.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

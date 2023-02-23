@@ -122,6 +122,12 @@
 			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
+			"path" : "ConfigureFiles/versions.h.in"
+		},
+		{
+			"path" : "ConfigureFiles/paths.h.in"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CheckCXXCompilerFlag.cmake"
@@ -157,6 +163,24 @@
 			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
 		},
 		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/xamblot/.local/lib/python3.9/site-packages/cmake/data/share/cmake-3.23/Templates/CPackConfig.cmake.in"
+		},
+		{
 			"path" : "lib/sublib/Bit/CMakeLists.txt"
 		},
 		{
@@ -166,8 +190,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/xamblot/CLionProjects/CppCmake/cmake-build-debug",
-		"source" : "/home/xamblot/CLionProjects/CppCmake"
+		"build" : "/home/xamblot/CLionProjects/Cmake/cmake-build-debug",
+		"source" : "/home/xamblot/CLionProjects/Cmake"
 	},
 	"version" : 
 	{
