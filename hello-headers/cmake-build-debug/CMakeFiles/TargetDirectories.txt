@@ -1,0 +1,3 @@
+/home/xamblot/CLionProjects/Cmake/hello-headers/cmake-build-debug/CMakeFiles/hello-headers.dir
+/home/xamblot/CLionProjects/Cmake/hello-headers/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/xamblot/CLionProjects/Cmake/hello-headers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

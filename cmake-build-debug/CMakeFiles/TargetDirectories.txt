@@ -2,7 +2,6 @@
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/CMakeFiles/CmakePractice_bin.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/CMakeFiles/package.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/CMakeFiles/package_source.dir
-/home/xamblot/CLionProjects/Cmake/cmake-build-debug/CMakeFiles/test.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/CMakeFiles/list_install_components.dir
@@ -12,7 +11,6 @@
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib/Bit/CMakeFiles/Bit.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib/Bit/CMakeFiles/package.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib/Bit/CMakeFiles/package_source.dir
-/home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib/Bit/CMakeFiles/test.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib/Bit/CMakeFiles/edit_cache.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib/Bit/CMakeFiles/rebuild_cache.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib/Bit/CMakeFiles/list_install_components.dir
@@ -21,7 +19,6 @@
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib/Bit/CMakeFiles/install/strip.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib2/Bit/CMakeFiles/package.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib2/Bit/CMakeFiles/package_source.dir
-/home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib2/Bit/CMakeFiles/test.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib2/Bit/CMakeFiles/edit_cache.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib2/Bit/CMakeFiles/rebuild_cache.dir
 /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib2/Bit/CMakeFiles/list_install_components.dir

@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_CmakePractice: phony || cmake_object_ord
 
 build CMakeFiles/CmakePractice.dir/lib/sublib/Static/Src/st.cpp.o: CXX_COMPILER__CmakePractice_Debug /home/xamblot/CLionProjects/Cmake/lib/sublib/Static/Src/st.cpp || cmake_object_order_depends_target_CmakePractice
   DEP_FILE = CMakeFiles/CmakePractice.dir/lib/sublib/Static/Src/st.cpp.o.d
-  FLAGS = -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -std=c++20 -g -std=gnu++2a
+  FLAGS = -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -std=c++20 -g -std=gnu++2a
   INCLUDES = -I/home/xamblot/CLionProjects/Cmake/cmake-build-debug -I/home/xamblot/CLionProjects/Cmake/lib/sublib/Static/Inc -I/home/xamblot/CLionProjects/Cmake/lib/sublib/Bit/lib/sublib/Bit/Include -I/home/xamblot/CLionProjects/Cmake/lib/sublib2/Bit/include
   OBJECT_DIR = CMakeFiles/CmakePractice.dir
   OBJECT_FILE_DIR = CMakeFiles/CmakePractice.dir/lib/sublib/Static/Src
@@ -65,7 +65,7 @@ build CMakeFiles/CmakePractice.dir/lib/sublib/Static/Src/st.cpp.o: CXX_COMPILER_
 # Link the static library libCmakePractice.a
 
 build libCmakePractice.a: CXX_STATIC_LIBRARY_LINKER__CmakePractice_Debug CMakeFiles/CmakePractice.dir/lib/sublib/Static/Src/st.cpp.o || lib/sublib/Bit/libBit.a
-  LANGUAGE_COMPILE_FLAGS = -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -std=c++20 -g
+  LANGUAGE_COMPILE_FLAGS = -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -std=c++20 -g
   OBJECT_DIR = CMakeFiles/CmakePractice.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -83,7 +83,7 @@ build cmake_object_order_depends_target_CmakePractice_bin: phony || cmake_object
 
 build CMakeFiles/CmakePractice_bin.dir/main.cpp.o: CXX_COMPILER__CmakePractice_bin_Debug /home/xamblot/CLionProjects/Cmake/main.cpp || cmake_object_order_depends_target_CmakePractice_bin
   DEP_FILE = CMakeFiles/CmakePractice_bin.dir/main.cpp.o.d
-  FLAGS = -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -std=c++20 -g -std=gnu++2a
+  FLAGS = -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -std=c++20 -g -std=gnu++2a
   INCLUDES = -I/home/xamblot/CLionProjects/Cmake/cmake-build-debug -I/home/xamblot/CLionProjects/Cmake/lib/sublib/Static/Inc -I/home/xamblot/CLionProjects/Cmake/lib/sublib/Bit/lib/sublib/Bit/Include -I/home/xamblot/CLionProjects/Cmake/lib/sublib2/Bit/include
   OBJECT_DIR = CMakeFiles/CmakePractice_bin.dir
   OBJECT_FILE_DIR = CMakeFiles/CmakePractice_bin.dir
@@ -97,7 +97,7 @@ build CMakeFiles/CmakePractice_bin.dir/main.cpp.o: CXX_COMPILER__CmakePractice_b
 # Link the executable CmakePractice_bin
 
 build CmakePractice_bin: CXX_EXECUTABLE_LINKER__CmakePractice_bin_Debug CMakeFiles/CmakePractice_bin.dir/main.cpp.o | libCmakePractice.a lib/sublib/Bit/libBit.a || lib/sublib/Bit/libBit.a libCmakePractice.a
-  FLAGS = -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -std=c++20 -g
+  FLAGS = -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -std=c++20 -g
   LINK_LIBRARIES = libCmakePractice.a  lib/sublib/Bit/libBit.a
   OBJECT_DIR = CMakeFiles/CmakePractice_bin.dir
   POST_BUILD = :
@@ -128,18 +128,6 @@ build CMakeFiles/package_source.util: CUSTOM_COMMAND
   restat = 1
 
 build package_source: phony CMakeFiles/package_source.util
-
-
-#############################################
-# Utility command for test
-
-build CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/ctest --force-new-ctest-process
-  DESC = Running tests...
-  pool = console
-  restat = 1
-
-build test: phony CMakeFiles/test.util
 
 
 #############################################
@@ -222,7 +210,7 @@ build cmake_object_order_depends_target_Bit: phony || lib/sublib/Bit/CMakeFiles/
 
 build lib/sublib/Bit/CMakeFiles/Bit.dir/Src/Bit.cpp.o: CXX_COMPILER__Bit_Debug /home/xamblot/CLionProjects/Cmake/lib/sublib/Bit/Src/Bit.cpp || cmake_object_order_depends_target_Bit
   DEP_FILE = lib/sublib/Bit/CMakeFiles/Bit.dir/Src/Bit.cpp.o.d
-  FLAGS = -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -g -std=gnu++2a
+  FLAGS = -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -g -std=gnu++2a
   INCLUDES = -I/home/xamblot/CLionProjects/Cmake/lib/sublib/Bit/lib/sublib/Bit/Include
   OBJECT_DIR = lib/sublib/Bit/CMakeFiles/Bit.dir
   OBJECT_FILE_DIR = lib/sublib/Bit/CMakeFiles/Bit.dir/Src
@@ -236,7 +224,7 @@ build lib/sublib/Bit/CMakeFiles/Bit.dir/Src/Bit.cpp.o: CXX_COMPILER__Bit_Debug /
 # Link the static library lib/sublib/Bit/libBit.a
 
 build lib/sublib/Bit/libBit.a: CXX_STATIC_LIBRARY_LINKER__Bit_Debug lib/sublib/Bit/CMakeFiles/Bit.dir/Src/Bit.cpp.o
-  LANGUAGE_COMPILE_FLAGS = -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -g
+  LANGUAGE_COMPILE_FLAGS = -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  -g
   OBJECT_DIR = lib/sublib/Bit/CMakeFiles/Bit.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -266,18 +254,6 @@ build lib/sublib/Bit/CMakeFiles/package_source.util: CUSTOM_COMMAND
   restat = 1
 
 build lib/sublib/Bit/package_source: phony lib/sublib/Bit/CMakeFiles/package_source.util
-
-
-#############################################
-# Utility command for test
-
-build lib/sublib/Bit/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib/Bit && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/ctest --force-new-ctest-process
-  DESC = Running tests...
-  pool = console
-  restat = 1
-
-build lib/sublib/Bit/test: phony lib/sublib/Bit/CMakeFiles/test.util
 
 
 #############################################
@@ -372,18 +348,6 @@ build lib/sublib2/Bit/CMakeFiles/package_source.util: CUSTOM_COMMAND
   restat = 1
 
 build lib/sublib2/Bit/package_source: phony lib/sublib2/Bit/CMakeFiles/package_source.util
-
-
-#############################################
-# Utility command for test
-
-build lib/sublib2/Bit/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /home/xamblot/CLionProjects/Cmake/cmake-build-debug/lib/sublib2/Bit && /home/xamblot/.local/lib/python3.9/site-packages/cmake/data/bin/ctest --force-new-ctest-process
-  DESC = Running tests...
-  pool = console
-  restat = 1
-
-build lib/sublib2/Bit/test: phony lib/sublib2/Bit/CMakeFiles/test.util
 
 
 #############################################

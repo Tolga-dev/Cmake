@@ -1,0 +1,4 @@
+# ninja log v5
+2	23	1677216717508544827	CMakeFiles/hello-headers.dir/src/Shape.cpp.o	db3a26555d299e32
+1	319	1677216717804548803	CMakeFiles/hello-headers.dir/main.cpp.o	d9f14fd7b73767c
+319	477	1677216717960550899	hello-headers	ffe2dd909013f763

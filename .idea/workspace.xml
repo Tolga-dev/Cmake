@@ -5,9 +5,9 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="CmakePractice" targetName="CmakePractice_bin" />
-      <config projectName="CmakePractice" targetName="CmakePractice" />
-      <config projectName="CmakePractice" targetName="Bit" />
+      <config projectName="static" targetName="static_bin" />
+      <config projectName="static" targetName="CmakePractice" />
+      <config projectName="static" targetName="static_lib" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -143,47 +143,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/xamblot/CLionProjects/cmake-build-debug&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/xamblot/CLionProjects/Cmake",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "structure.view.defaults.are.configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hello-headers/src" />
+      <recent name="$PROJECT_DIR$/hello-headers/include" />
       <recent name="$PROJECT_DIR$/lib/sublib2/Bit" />
       <recent name="$PROJECT_DIR$/lib/sublib2/bit" />
       <recent name="$PROJECT_DIR$/lib/sublib" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.CmakePractice">
-    <configuration name="Bit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CmakePractice" TARGET_NAME="Bit" CONFIG_NAME="Debug">
+  <component name="RunManager" selected="CMake Application.static_lib">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmakePractice" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="static" TARGET_NAME="CmakePractice_bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="static" RUN_TARGET_NAME="CmakePractice_bin">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmakePractice" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CmakePractice" TARGET_NAME="CmakePractice" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CmakePractice" RUN_TARGET_NAME="CmakePractice_bin">
+    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="static_bin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="static" TARGET_NAME="static_bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="static" RUN_TARGET_NAME="static_bin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="static_lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="static" TARGET_NAME="static_bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="static" RUN_TARGET_NAME="static_bin">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.Unnamed" />
       <item itemvalue="CMake Application.CmakePractice" />
-      <item itemvalue="CMake Application.Bit" />
+      <item itemvalue="CMake Application.static_bin" />
+      <item itemvalue="CMake Application.static_lib" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -207,6 +222,8 @@
       <workItem from="1676960398467" duration="3272000" />
       <workItem from="1676963683584" duration="6257000" />
       <workItem from="1677135970915" duration="5186000" />
+      <workItem from="1677149879503" duration="55000" />
+      <workItem from="1677214765069" duration="5622000" />
     </task>
     <servers />
   </component>

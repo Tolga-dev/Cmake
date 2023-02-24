@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "static",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "static_bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static_bin-Debug-fd00349a74e08f61be06.json",
+					"name" : "static_bin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static_lib-Debug-7a064232c0c5ebe69e6b.json",
+					"name" : "static_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xamblot/CLionProjects/Cmake/Static-Shared-Lib/Static-lib/cmake-build-debug",
+		"source" : "/home/xamblot/CLionProjects/Cmake/Static-Shared-Lib/Static-lib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
