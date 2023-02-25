@@ -5,9 +5,10 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="static" targetName="static_bin" />
-      <config projectName="static" targetName="CmakePractice" />
-      <config projectName="static" targetName="static_lib" />
+      <config projectName="install" targetName="static_lib" />
+      <config projectName="install" targetName="CmakePractice" />
+      <config projectName="install" targetName="install_bin" />
+      <config projectName="install" targetName="install_lib" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -153,13 +154,17 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/home/xamblot/CLionProjects/Cmake",
+    "last_opened_file_path": "/home/xamblot/CLionProjects/Cmake/InstallCmake",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "structure.view.defaults.are.configured": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/InstallCmake" />
+      <recent name="$PROJECT_DIR$/Static-Shared-Lib/SharedLib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/hello-headers/src" />
       <recent name="$PROJECT_DIR$/hello-headers/include" />
@@ -168,13 +173,13 @@
       <recent name="$PROJECT_DIR$/lib/sublib" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.static_lib">
+  <component name="RunManager" selected="CMake Application.install_bin">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmakePractice" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="static" TARGET_NAME="CmakePractice_bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="static" RUN_TARGET_NAME="CmakePractice_bin">
+    <configuration name="CmakePractice" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="install" TARGET_NAME="CmakePractice_bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="install" RUN_TARGET_NAME="CmakePractice_bin">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -184,12 +189,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="static_bin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="static" TARGET_NAME="static_bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="static" RUN_TARGET_NAME="static_bin">
+    <configuration name="install_bin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="install" TARGET_NAME="install_bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="install" RUN_TARGET_NAME="install_bin">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="static_lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="static" TARGET_NAME="static_bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="static" RUN_TARGET_NAME="static_bin">
+    <configuration name="install_lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="install" TARGET_NAME="install_lib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="static_lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="install" TARGET_NAME="static_bin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="install" RUN_TARGET_NAME="static_bin">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -197,8 +207,9 @@
     <list>
       <item itemvalue="CMake Application.Unnamed" />
       <item itemvalue="CMake Application.CmakePractice" />
-      <item itemvalue="CMake Application.static_bin" />
       <item itemvalue="CMake Application.static_lib" />
+      <item itemvalue="CMake Application.install_bin" />
+      <item itemvalue="CMake Application.install_lib" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -224,6 +235,8 @@
       <workItem from="1677135970915" duration="5186000" />
       <workItem from="1677149879503" duration="55000" />
       <workItem from="1677214765069" duration="5919000" />
+      <workItem from="1677226264486" duration="14000" />
+      <workItem from="1677308478836" duration="4518000" />
     </task>
     <servers />
   </component>

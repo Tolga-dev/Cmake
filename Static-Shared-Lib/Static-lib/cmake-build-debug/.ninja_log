@@ -1,5 +1,5 @@
 # ninja log v5
-1	306	1677219783292947011	CMakeFiles/static_bin.dir/main.cpp.o	a8e7a97fdda24133
 0	317	1677219783300947117	CMakeFiles/static_lib.dir/src/bit.cpp.o	a45992a2d322a60f
 317	327	1677219783312947275	libstatic_lib.a	9eb7447df4b628f6
+1	306	1677219783292947011	CMakeFiles/static_bin.dir/main.cpp.o	a8e7a97fdda24133
 327	472	1677219783456949175	static_bin	59d1f8fb91101b01

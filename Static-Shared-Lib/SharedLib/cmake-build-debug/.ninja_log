@@ -1,0 +1,5 @@
+# ninja log v5
+0	418	1677309411911125279	CMakeFiles/shared_lib.dir/src/bit.cpp.o	f018735dccd0ee84
+1	440	1677309411931125445	CMakeFiles/shared_bin.dir/main.cpp.o	f6829aa3db43bdd8
+419	541	1677309412031126274	libshared_lib.so	284835376bbca2a0
+541	682	1677309412171127435	shared_bin	676f2555c2746f03

@@ -10,6 +10,7 @@ project (static) # set project name
 add_library(static_lib STATIC src/bit.cpp) # create lib
 target_include_directories(static_lib PUBLIC ${PROJECT_SOURCE_DIR}/include/bit)
 
+#static -> .a .lib, it is directly linked into the program at compile time
 
 ##################
 #Create Executable
