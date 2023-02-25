@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libshared_lib.so -o libshared_lib.so CMakeFiles/shared_lib.dir/src/bit.cpp.o 

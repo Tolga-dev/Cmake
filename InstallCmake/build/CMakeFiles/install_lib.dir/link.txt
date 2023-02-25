@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -Wextra -O3 -DNDEBUG -shared -Wl,-soname,libinstall_lib.so -o libinstall_lib.so CMakeFiles/install_lib.dir/src/bit.cpp.o 

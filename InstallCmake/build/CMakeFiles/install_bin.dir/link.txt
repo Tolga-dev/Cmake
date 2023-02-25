@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -O3 -DNDEBUG CMakeFiles/install_bin.dir/main.cpp.o -o install_bin  -Wl,-rpath,/home/xamblot/CLionProjects/Cmake/InstallCmake/build: libinstall_lib.so 

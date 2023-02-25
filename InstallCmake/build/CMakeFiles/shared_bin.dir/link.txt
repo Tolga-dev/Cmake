@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/shared_bin.dir/main.cpp.o -o shared_bin  -Wl,-rpath,/home/xamblot/CLionProjects/Cmake/InstallCmake/build: libshared_lib.so 

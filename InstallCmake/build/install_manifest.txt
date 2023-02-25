@@ -1,0 +1,3 @@
+/usr/local/bin/shared_bin
+/usr/local/lib/libshared_lib.so
+/usr/local/include/bit/bit.h
