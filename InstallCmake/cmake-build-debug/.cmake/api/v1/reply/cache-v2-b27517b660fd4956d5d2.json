@@ -191,7 +191,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : " -Wall -Wextra"
+			"value" : " -Wall -Wextra -Wall -Wextra"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_DEBUG",
