@@ -13,7 +13,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra" CACHE STRING "Default CXX
 
 add_library(install_lib SHARED src/bit.cpp) # create lib
 
-target_include_directories(install_lib PUBLIC ${PROJECT_SOURCE_DIR}/include/bit)
+target_include_directories(install_lib PUBLIC ../SubLib/sublib1/include/bit)
 
 
 #shared -> SHARED libraries are linked and loaded at runtime , .so, .dll, .dylib
@@ -44,6 +44,6 @@ install (TARGETS install_lib
         LIBRARY DESTINATION lib)
 
 # Header files
-install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/
+install(DIRECTORY ../SubLib/sublib1/include/
         DESTINATION include)
 

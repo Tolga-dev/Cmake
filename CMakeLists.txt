@@ -1,3 +1,4 @@
+#[[
 #cmake_minimum_required(VERSION 3.23)
 #project(CmakePractice)
 #
@@ -57,6 +58,7 @@
 #        sublib::bit::inc::bit
 #        sublib2::bit::inc::bit
 #        )
+
 ###########################################################
 ## Create an executable
 ###########################################################
@@ -98,3 +100,4 @@
 #
 #
 #
+]]

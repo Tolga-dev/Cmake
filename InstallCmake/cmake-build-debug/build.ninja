@@ -52,8 +52,8 @@ build cmake_object_order_depends_target_install_lib: phony || CMakeFiles/install
 build CMakeFiles/install_lib.dir/src/bit.cpp.o: CXX_COMPILER__install_lib_Debug /home/xamblot/CLionProjects/Cmake/InstallCmake/src/bit.cpp || cmake_object_order_depends_target_install_lib
   DEFINES = -Dinstall_lib_EXPORTS
   DEP_FILE = CMakeFiles/install_lib.dir/src/bit.cpp.o.d
-  FLAGS = -Wall -Wextra -Wall -Wextra -g -fPIC
-  INCLUDES = -I/home/xamblot/CLionProjects/Cmake/InstallCmake/include/bit
+  FLAGS = -Wall -Wextra -Wall -Wextra -Wall -Wextra -g -fPIC
+  INCLUDES = -I/home/xamblot/CLionProjects/Cmake/InstallCmake/../SubLib/sublib1/include/bit
   OBJECT_DIR = CMakeFiles/install_lib.dir
   OBJECT_FILE_DIR = CMakeFiles/install_lib.dir/src
 
@@ -66,7 +66,7 @@ build CMakeFiles/install_lib.dir/src/bit.cpp.o: CXX_COMPILER__install_lib_Debug 
 # Link the shared library libinstall_lib.so
 
 build libinstall_lib.so: CXX_SHARED_LIBRARY_LINKER__install_lib_Debug CMakeFiles/install_lib.dir/src/bit.cpp.o
-  LANGUAGE_COMPILE_FLAGS = -Wall -Wextra -Wall -Wextra -g
+  LANGUAGE_COMPILE_FLAGS = -Wall -Wextra -Wall -Wextra -Wall -Wextra -g
   OBJECT_DIR = CMakeFiles/install_lib.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -86,8 +86,8 @@ build cmake_object_order_depends_target_install_bin: phony || cmake_object_order
 
 build CMakeFiles/install_bin.dir/main.cpp.o: CXX_COMPILER__install_bin_Debug /home/xamblot/CLionProjects/Cmake/InstallCmake/main.cpp || cmake_object_order_depends_target_install_bin
   DEP_FILE = CMakeFiles/install_bin.dir/main.cpp.o.d
-  FLAGS = -Wall -Wextra -Wall -Wextra -g
-  INCLUDES = -I/home/xamblot/CLionProjects/Cmake/InstallCmake/include/bit
+  FLAGS = -Wall -Wextra -Wall -Wextra -Wall -Wextra -g
+  INCLUDES = -I/home/xamblot/CLionProjects/Cmake/InstallCmake/../SubLib/sublib1/include/bit
   OBJECT_DIR = CMakeFiles/install_bin.dir
   OBJECT_FILE_DIR = CMakeFiles/install_bin.dir
 
@@ -100,7 +100,7 @@ build CMakeFiles/install_bin.dir/main.cpp.o: CXX_COMPILER__install_bin_Debug /ho
 # Link the executable install_bin
 
 build install_bin: CXX_EXECUTABLE_LINKER__install_bin_Debug CMakeFiles/install_bin.dir/main.cpp.o | libinstall_lib.so || libinstall_lib.so
-  FLAGS = -Wall -Wextra -Wall -Wextra -g
+  FLAGS = -Wall -Wextra -Wall -Wextra -Wall -Wextra -g
   LINK_LIBRARIES = -Wl,-rpath,/home/xamblot/CLionProjects/Cmake/InstallCmake/cmake-build-debug:  libinstall_lib.so
   OBJECT_DIR = CMakeFiles/install_bin.dir
   POST_BUILD = :

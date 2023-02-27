@@ -49,14 +49,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wall -Wextra -Wall -Wextra -g"
+					"fragment" : " -Wall -Wextra -Wall -Wextra -Wall -Wextra -g"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/xamblot/CLionProjects/Cmake/InstallCmake/include/bit"
+					"path" : "/home/xamblot/CLionProjects/Cmake/InstallCmake/../SubLib/sublib1/include/bit"
 				}
 			],
 			"language" : "CXX",
@@ -93,7 +93,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-Wall -Wextra -Wall -Wextra -g",
+				"fragment" : "-Wall -Wextra -Wall -Wextra -Wall -Wextra -g",
 				"role" : "flags"
 			},
 			{

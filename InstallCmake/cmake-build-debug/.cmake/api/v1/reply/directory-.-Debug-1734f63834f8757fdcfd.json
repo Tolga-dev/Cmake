@@ -67,7 +67,7 @@
 			"paths" : 
 			[
 				{
-					"from" : "include",
+					"from" : "../SubLib/sublib1/include",
 					"to" : "."
 				}
 			],

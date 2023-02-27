@@ -49,7 +49,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wall -Wextra -Wall -Wextra -g -fPIC"
+					"fragment" : " -Wall -Wextra -Wall -Wextra -Wall -Wextra -g -fPIC"
 				}
 			],
 			"defines" : 
@@ -62,7 +62,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/xamblot/CLionProjects/Cmake/InstallCmake/include/bit"
+					"path" : "/home/xamblot/CLionProjects/Cmake/InstallCmake/../SubLib/sublib1/include/bit"
 				}
 			],
 			"language" : "CXX",

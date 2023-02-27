@@ -9,7 +9,7 @@ project (shared) # set project name
 
 add_library(shared_lib SHARED src/bit.cpp) # create lib
 
-target_include_directories(shared_lib PUBLIC ${PROJECT_SOURCE_DIR}/include/bit)
+target_include_directories(shared_lib PUBLIC ../../SubLib/sublib1/include/bit)
 
 
 #shared -> SHARED libraries are linked and loaded at runtime , .so, .dll, .dylib

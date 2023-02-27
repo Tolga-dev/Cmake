@@ -36,7 +36,7 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-10
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-10
 
 //Default CXX options
-CMAKE_CXX_FLAGS:STRING= -Wall -Wextra -Wall -Wextra
+CMAKE_CXX_FLAGS:STRING= -Wall -Wextra -Wall -Wextra -Wall -Wextra
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
